@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head ng-include src="'partials/head.html'"></head>
+<body class="container">
+
+<header>
+    <div ng-include src="'partials/header.html'"></div>
+</header>
+
+<main>
+    <div class="jumbotron">
+        <h1>This is great</h1>
+        <p>Welcome to templating using EJS</p>
+        {{ "hello" }}
+    </div>
+</main>
+
+<footer ng-include src="'partials/footer.html'"></footer>
+</body>
+</html>
